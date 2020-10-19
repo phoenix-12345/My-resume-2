@@ -1,0 +1,187 @@
+.top-container{
+
+    background-color:#e0ebe8;
+    position: relative;
+
+}
+
+
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+/*  Used for dynamic font size =>  16px = 100% = 1em */
+
+/* 
+Note that for font sizing we use percentage , em , rem  and pixels values
+
+Static font sizing is done using pixels values
+
+dynamic sizing - em ,rem ,percentage But 
+1)em and percent uses the values of parent and get added in it.
+2)rem does not uses parent values  
+*/
+
+
+h1{
+    color: #66bfbf;
+    margin: 50px auto 0px auto;
+    font-size: 5.625em;
+    font-family: 'Sacramento', cursive;
+}
+
+
+
+h2{
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;  
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.bottom-cloud{
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+
+.top-cloud{
+    position: relative;
+    left: 200px;
+}
+
+.skill-row{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+}
+
+p{
+    line-height: 2;
+}
+
+
+
+.html-image{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.css-image{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+
+.middle-container{
+    margin: 100px 0;
+
+}
+
+
+/* .html-image-descreption{
+    clear: left;
+}
+
+
+.css-image-description{
+    clear: right;
+} */
+
+.intro{
+    width: 30%;
+   margin: auto; 
+}
+
+
+
+hr{
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+     
+    
+}
+
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+
+.btn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background-color:#3d94f6;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+text-indent:0;
+	border:1px solid #337fed;
+	display:inline-block;
+	color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 1px 0px #1570cd;
+}.btn:hover {
+	background-color:#1e62d0;
+}.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
+
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#EAF6F6;
+}
+
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.76rem;
+}
